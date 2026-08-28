@@ -25,7 +25,8 @@
     "generate:api-hooks:watch": "node packages/api-hooks-generator/dist/cli.js --watch",
     "analyze:bundle": "bash scripts/analyze-bundle.sh",
     "lighthouse:ci": "lhci autorun --config=./lighthouse/lighthouse.config.json",
-    "log-viewer": "node packages/log-viewer/dist/cli.js"
+    "log-viewer": "node packages/log-viewer/dist/cli.js",
+    "release": "semantic-release"
   },
   "devDependencies": {
     "turbo": "^1.10.16",
